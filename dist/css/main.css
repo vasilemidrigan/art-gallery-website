@@ -69,9 +69,56 @@ h2 {
 
 p {
   color: #444444;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 body {
   max-width: 375px;
+}
+
+body main {
+  margin: 120px 16px 0 16px;
+}
+
+body main img {
+  width: 100%;
+}
+
+body main .main--upper--image {
+  margin-bottom: 25px;
+}
+
+body main .main--upper--content .main--h2 {
+  font-size: 50px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #151515;
+  margin-bottom: 21px;
+}
+
+body main .main--middle--image {
+  margin-top: 32px;
+}
+
+body main .main--bottom--image {
+  margin: 16px 0 16px 0;
+}
+
+body main .main--bottom--content {
+  background-color: #151515;
+  padding: 48px 24px;
+}
+
+body main .main--bottom--content .main--h2,
+body main .main--bottom--content .main--p {
+  color: #ffffff;
+}
+
+body main .main--bottom--content .main--h2 {
+  margin-bottom: 24px;
 }
 /*# sourceMappingURL=main.css.map */

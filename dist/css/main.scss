@@ -26,8 +26,48 @@ h2 {
 
 p {
   color: $dark--grey;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 body {
   max-width: 375px;
+  main {
+    margin: 120px 16px 0 16px;
+    img {
+      width: 100%;
+    }
+    .main--upper--image {
+      margin-bottom: 25px;
+    }
+    .main--upper--content {
+      .main--h2 {
+        font-size: 50px;
+        line-height: 45px;
+        text-transform: uppercase;
+        color: $almost--black;
+        margin-bottom: 21px;
+      }
+    }
+    .main--middle--image {
+      margin-top: 32px;
+    }
+    .main--bottom--image {
+      margin: 16px 0 16px 0;
+    }
+    .main--bottom--content {
+      background-color: $almost--black;
+      padding: 48px 24px;
+      .main--h2,
+      .main--p {
+        color: $white;
+      }
+      .main--h2 {
+        margin-bottom: 24px;
+      }
+    }
+  }
 }
