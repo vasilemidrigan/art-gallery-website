@@ -1,6 +1,6 @@
-// –––––––––––––––––––––––––––––––––––––––––––––––––
-// ––––––––––––––––––| Header |–––––––––––––––––––––
-// –––––––––––––––––––––––––––––––––––––––––––––––––
+// –––––––––––––––––––––––––––
+// ––––––––| HEADER |–––––––––
+// –––––––––––––––––––––––––––
 
 header {
   .header--image {
@@ -28,9 +28,18 @@ header {
         letter-spacing: 3.63636px;
       }
       .button--right_side {
+        @include display-flex(center);
         background-color: $gold;
         width: 56px;
         height: 100%;
+        .button--right_side--arrow {
+          mask-image: url(/starter-code/assets/icon-arrow-right.svg);
+          mask-size: 8px 24px;
+          mask-repeat: no-repeat;
+          background-color: $white;
+          width: 8px;
+          height: 24px;
+        }
       }
     }
   }

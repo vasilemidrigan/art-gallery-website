@@ -41,9 +41,30 @@ header .header--content .header--content--button .button--left_side {
 }
 
 header .header--content .header--content--button .button--right_side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #d5966c;
   width: 56px;
   height: 100%;
+}
+
+header .header--content .header--content--button .button--right_side .button--right_side--arrow {
+  -webkit-mask-image: url(/starter-code/assets/icon-arrow-right.svg);
+          mask-image: url(/starter-code/assets/icon-arrow-right.svg);
+  -webkit-mask-size: 8px 24px;
+          mask-size: 8px 24px;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  background-color: #ffffff;
+  width: 8px;
+  height: 24px;
 }
 
 footer {
