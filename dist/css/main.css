@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap");
+header .header--image {
+  width: 100%;
+}
+
+header .header--content {
+  margin: 32px 16px;
+}
+
+header .header--content .header--content--h1,
+header .header--content .header--content--p {
+  margin-bottom: 32px;
+}
+
+header .header--content .header--content--button {
+  width: 260px;
+  height: 72px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .header--content .header--content--button .button--left_side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #151515;
+  color: #ffffff;
+  width: 204px;
+  height: 100%;
+  font-family: "Big Shoulders Display";
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3.63636px;
+}
+
+header .header--content .header--content--button .button--right_side {
+  background-color: #d5966c;
+  width: 56px;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+button {
+  border: none;
+}
+
+h1,
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 60px;
+  line-height: 55px;
+  text-transform: uppercase;
+  color: #151515;
+}
+
+p {
+  color: #444444;
+}
+
+body {
+  max-width: 375px;
+}
+/*# sourceMappingURL=main.css.map */

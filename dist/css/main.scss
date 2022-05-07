@@ -1,0 +1,33 @@
+// Import Fonts
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap");
+// Import modules
+@import "mixins";
+@import "colors";
+@import "header";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+
+button {
+  border: none;
+}
+
+h1,
+h2 {
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 60px;
+  line-height: 55px;
+  text-transform: uppercase;
+  color: $almost--black;
+}
+
+p {
+  color: $dark--grey;
+}
+
+body {
+  max-width: 375px;
+}
