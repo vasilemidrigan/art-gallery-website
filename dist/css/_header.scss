@@ -17,7 +17,7 @@ header {
       height: 72px;
       display: flex;
       .button--left_side {
-        @include display-flex;
+        @include display-flex(center);
         background-color: $almost--black;
         color: $white;
         width: 204px;

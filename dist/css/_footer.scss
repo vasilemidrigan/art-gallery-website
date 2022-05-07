@@ -1,0 +1,44 @@
+// –––––––––––––––––––––––––––––––––––––––––––––––––
+// ––––––––––––––––––| Footer |–––––––––––––––––––––
+// –––––––––––––––––––––––––––––––––––––––––––––––––
+
+footer {
+  height: 336px;
+  background-color: $almost--black;
+  .footer--h3 {
+    display: inline-block;
+    width: 110.05px;
+    height: 40px;
+    margin: 48px 0 38px 32px;
+  }
+  .footer--p {
+    margin: 0 32px 38px 32px;
+  }
+  .footer--h3,
+  .footer--p {
+    color: $white;
+  }
+  .footer--socials {
+    @include display-flex(space-between);
+    width: 100px;
+    margin: 0 0 48px 32px;
+    .footer--socials--facebook {
+      mask-image: url(/starter-code/assets/icon-facebook.svg);
+    }
+    .footer--socials--instagram {
+      mask-image: url(/starter-code/assets/icon-instagram.svg);
+    }
+    .footer--socials--twitter {
+      mask-image: url(/starter-code/assets/icon-twitter.svg);
+    }
+    .footer--socials--facebook,
+    .footer--socials--instagram,
+    .footer--socials--twitter {
+      background: $white;
+      width: 20px;
+      height: 20px;
+      mask-size: 20px 20px;
+      mask-repeat: no-repeat;
+    }
+  }
+}
