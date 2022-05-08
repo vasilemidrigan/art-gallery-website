@@ -41,4 +41,24 @@ footer {
       mask-repeat: no-repeat;
     }
   }
+  // Media Queries for Tablet Screens wider than 770px
+  @media (min-width: $breakpoint-tablet) {
+    width: 768px;
+    height: 216px;
+    @include display-flex(space-between);
+    align-items: flex-start;
+    .footer--h3 {
+      width: 110.05px;
+      height: 40px;
+      margin: 56px 0 0 39px;
+    }
+    .footer--p {
+      margin: 56px 32px 38px 32px;
+      width: 281px;
+      height: 104px;
+    }
+    .footer--socials {
+      margin: 56px 40px 48px 32px;
+    }
+  }
 }

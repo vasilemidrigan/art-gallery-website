@@ -32,7 +32,6 @@ body {
 @media (min-width: 770px) {
   body {
     max-width: 768px;
-    min-width: 770px;
   }
 }
 
@@ -183,7 +182,7 @@ header .header--content .header--content--p {
     position: absolute;
     top: 145px;
     left: 389px;
-    margin: 0px 16px;
+    margin: 0 40px 0 0;
   }
   header .header--content .header--content--h1 {
     font-size: 70px;
@@ -257,6 +256,38 @@ footer .footer--socials .footer--socials--twitter {
           mask-repeat: no-repeat;
 }
 
+@media (min-width: 770px) {
+  footer {
+    width: 768px;
+    height: 216px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  footer .footer--h3 {
+    width: 110.05px;
+    height: 40px;
+    margin: 56px 0 0 39px;
+  }
+  footer .footer--p {
+    margin: 56px 32px 38px 32px;
+    width: 281px;
+    height: 104px;
+  }
+  footer .footer--socials {
+    margin: 56px 40px 48px 32px;
+  }
+}
+
 main {
   margin: 120px 16px;
 }
@@ -300,6 +331,9 @@ main .main--bottom--content .main--p {
 }
 
 @media (min-width: 770px) {
+  main {
+    margin: 120px 40px;
+  }
   main img {
     width: 100%;
   }
