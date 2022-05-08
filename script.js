@@ -1,5 +1,5 @@
 "use strict";
-
+// ------------------------
 // Variables
 
 // Header
@@ -31,6 +31,10 @@ mainBottomRightContentWrapper.className =
 // Footer
 const footer = document.querySelector("footer");
 const socialsFb = document.querySelector(".footer--socials--facebook");
+
+// Variables for './location.html' page
+const mapImage = document.querySelector(".header--map");
+mapImage.src = "./starter-code/assets/tablet/map-tablet.png";
 
 // Change main styles if the location page is opened:
 if (location.pathname === "/location.html") {

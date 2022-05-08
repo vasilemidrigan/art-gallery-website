@@ -22,6 +22,9 @@ body {
   @media (min-width: $breakpoint-tablet) {
     max-width: 768px;
   }
+  @media (min-width: $breakpoint-desktop) {
+    max-width: 1440px;
+  }
 }
 
 a {

@@ -35,6 +35,12 @@ body {
   }
 }
 
+@media (min-width: 1440px) {
+  body {
+    max-width: 1440px;
+  }
+}
+
 a {
   text-decoration: none;
 }
@@ -158,6 +164,12 @@ p {
           mask-image: url(/starter-code/assets/icon-arrow-left.svg);
 }
 
+@media (min-width: 770px) {
+  .header--button--link--reverse {
+    left: 39px;
+  }
+}
+
 header .header--image {
   width: 100%;
 }
@@ -171,7 +183,7 @@ header .header--content .header--content--p {
   margin-bottom: 32px;
 }
 
-@media screen and (min-width: 770px) {
+@media (min-width: 770px) {
   header .header--image {
     width: 437px;
     height: 700px;
@@ -191,6 +203,12 @@ header .header--content .header--content--p {
   header .header--content .header--content--h1,
   header .header--content .header--content--p {
     margin-bottom: 48px;
+  }
+}
+
+@media (min-width: 1440px) {
+  header {
+    border: 1px solid red;
   }
 }
 
@@ -427,6 +445,13 @@ header {
 header .header--map {
   width: 100%;
   height: 550px;
+}
+
+@media (min-width: 770px) {
+  header {
+    width: 768px;
+    height: 600px;
+  }
 }
 
 .location--main {

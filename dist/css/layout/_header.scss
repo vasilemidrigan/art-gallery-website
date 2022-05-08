@@ -14,7 +14,7 @@ header {
     }
   }
   // Media Queries for Tablets (770px and above)
-  @media screen and (min-width: $breakpoint-tablet) {
+  @media (min-width: $breakpoint-tablet) {
     .header--image {
       width: 437px;
       height: 700px;
@@ -35,5 +35,9 @@ header {
         margin-bottom: 48px;
       }
     }
+  }
+  // Media Queries for Desktops (1440px and above)
+  @media (min-width: $breakpoint-desktop) {
+    border: 1px solid red;
   }
 }

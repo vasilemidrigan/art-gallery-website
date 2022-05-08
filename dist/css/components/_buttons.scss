@@ -52,4 +52,8 @@
       }
     }
   }
+  // Media Queries for our reversed button 
+  @media (min-width: $breakpoint-tablet) {
+    left: 39px;
+  }
 }
