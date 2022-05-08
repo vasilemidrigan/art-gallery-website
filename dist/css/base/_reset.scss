@@ -9,6 +9,17 @@
   font-family: "Outfit", sans-serif;
 }
 
+html {
+  width: 100vw;
+  @include display-flex(center);
+  flex-direction: column;
+}
+
+body {
+  max-width: 375px;
+  min-width: 300px;
+}
+
 a {
   text-decoration: none;
 }
