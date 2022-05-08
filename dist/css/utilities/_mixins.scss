@@ -2,7 +2,8 @@
 // ––––––––| MIXINS |–––––––––
 // –––––––––––––––––––––––––––
 
-$almost--black: #151515;
-$dark--grey: #444444;
-$gold: #d5966c;
-$white: #ffffff;
+@mixin display-flex($justify-content) {
+  display: flex;
+  justify-content: $justify-content;
+  align-items: center;
+}

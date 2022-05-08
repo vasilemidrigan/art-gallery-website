@@ -1,0 +1,16 @@
+// –––––––––––––––––––––––––––
+// ––––––––| HEADER |–––––––––
+// –––––––––––––––––––––––––––
+
+header {
+  .header--image {
+    width: 100%;
+  }
+  .header--content {
+    margin: 32px 16px;
+    .header--content--h1,
+    .header--content--p {
+      margin-bottom: 32px;
+    }
+  }
+}

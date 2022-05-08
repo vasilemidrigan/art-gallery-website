@@ -1,18 +1,53 @@
 @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap");
-header .header--image {
-  width: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
 }
 
-header .header--content {
-  margin: 32px 16px;
+a {
+  text-decoration: none;
 }
 
-header .header--content .header--content--h1,
-header .header--content .header--content--p {
-  margin-bottom: 32px;
+button {
+  border: none;
 }
 
-header .header--content .header--content--button {
+h1,
+h2,
+h3 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 55px;
+  color: #151515;
+}
+
+h2 {
+  font-size: 50px;
+  line-height: 45px;
+  color: #151515;
+}
+
+h3 {
+  line-height: 1;
+}
+
+p {
+  color: #444444;
+  font-family: "Outfit";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.header--content--button {
   width: 260px;
   height: 72px;
   display: -webkit-box;
@@ -20,7 +55,7 @@ header .header--content .header--content--button {
   display: flex;
 }
 
-header .header--content .header--content--button .button--left_side {
+.header--content--button .button--left_side {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,7 +75,7 @@ header .header--content .header--content--button .button--left_side {
   letter-spacing: 3.63636px;
 }
 
-header .header--content .header--content--button .button--right_side {
+.header--content--button .button--right_side {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -55,7 +90,7 @@ header .header--content .header--content--button .button--right_side {
   height: 100%;
 }
 
-header .header--content .header--content--button .button--right_side .button--right_side--arrow {
+.header--content--button .button--right_side .button--right_side--arrow {
   -webkit-mask-image: url(/starter-code/assets/icon-arrow-right.svg);
           mask-image: url(/starter-code/assets/icon-arrow-right.svg);
   -webkit-mask-size: 8px 24px;
@@ -65,6 +100,19 @@ header .header--content .header--content--button .button--right_side .button--ri
   background-color: #ffffff;
   width: 8px;
   height: 24px;
+}
+
+header .header--image {
+  width: 100%;
+}
+
+header .header--content {
+  margin: 32px 16px;
+}
+
+header .header--content .header--content--h1,
+header .header--content .header--content--p {
+  margin-bottom: 32px;
 }
 
 footer {
@@ -129,67 +177,19 @@ footer .footer--socials .footer--socials--twitter {
           mask-repeat: no-repeat;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-family: "Outfit", sans-serif;
-}
-
-button {
-  border: none;
-}
-
-h1,
-h2,
-h3 {
-  font-family: "Big Shoulders Display", cursive;
-  text-transform: uppercase;
-}
-
-h1 {
-  font-size: 60px;
-  line-height: 55px;
-  color: #151515;
-}
-
-h2 {
-  font-size: 50px;
-  line-height: 45px;
-  color: #151515;
-}
-
-h3 {
-  line-height: 1;
-}
-
-p {
-  color: #444444;
-  font-family: "Outfit";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-body {
-  max-width: 375px;
-}
-
-body main {
+main {
   margin: 120px 16px;
 }
 
-body main img {
+main img {
   width: 100%;
 }
 
-body main .main--upper--image {
+main .main--upper--image {
   margin-bottom: 25px;
 }
 
-body main .main--upper--content .main--h2 {
+main .main--upper--content .main--h2 {
   font-size: 50px;
   line-height: 45px;
   text-transform: uppercase;
@@ -197,25 +197,25 @@ body main .main--upper--content .main--h2 {
   margin-bottom: 21px;
 }
 
-body main .main--middle--image {
+main .main--middle--image {
   margin-top: 32px;
 }
 
-body main .main--bottom--image {
+main .main--bottom--image {
   margin: 16px 0 16px 0;
 }
 
-body main .main--bottom--content {
+main .main--bottom--content {
   background-color: #151515;
   padding: 48px 24px;
 }
 
-body main .main--bottom--content .main--h2 {
+main .main--bottom--content .main--h2 {
   margin-bottom: 24px;
 }
 
-body main .main--bottom--content .main--h2,
-body main .main--bottom--content .main--p {
+main .main--bottom--content .main--h2,
+main .main--bottom--content .main--p {
   color: #ffffff;
 }
 /*# sourceMappingURL=main.css.map */

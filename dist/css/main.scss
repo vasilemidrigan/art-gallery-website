@@ -2,90 +2,17 @@
 // ––––––––| MAIN |–––––––––––
 // –––––––––––––––––––––––––––
 
-// Import Fonts
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap");
-// Import modules
-@import "mixins";
-@import "colors";
-@import "header";
-@import "footer";
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Outfit", sans-serif;
-}
+// Import parcels:
 
-button {
-  border: none;
-}
-
-h1,
-h2,
-h3 {
-  font-family: "Big Shoulders Display", cursive;
-  text-transform: uppercase;
-}
-
-h1 {
-  font-size: 60px;
-  line-height: 55px;
-  color: $almost--black;
-}
-
-h2 {
-  font-size: 50px;
-  line-height: 45px;
-  color: $almost--black;
-}
-h3 {
-  line-height: 1;
-}
-
-p {
-  color: $dark--grey;
-  font-family: "Outfit";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-body {
-  max-width: 375px;
-  main {
-    margin: 120px 16px;
-    img {
-      width: 100%;
-    }
-    .main--upper--image {
-      margin-bottom: 25px;
-    }
-    .main--upper--content {
-      .main--h2 {
-        font-size: 50px;
-        line-height: 45px;
-        text-transform: uppercase;
-        color: $almost--black;
-        margin-bottom: 21px;
-      }
-    }
-    .main--middle--image {
-      margin-top: 32px;
-    }
-    .main--bottom--image {
-      margin: 16px 0 16px 0;
-    }
-    .main--bottom--content {
-      background-color: $almost--black;
-      padding: 48px 24px;
-      .main--h2 {
-        margin-bottom: 24px;
-      }
-      .main--h2,
-      .main--p {
-        color: $white;
-      }
-    }
-  }
-}
+// utilities
+@import "./utilities/mixins";
+@import "./utilities/variables";
+// base
+@import "./base/reset";
+@import "./base/typography";
+// components
+@import "./components/buttons";
+// layout
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/main-content";
