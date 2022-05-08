@@ -299,6 +299,93 @@ main .main--bottom--content .main--p {
   color: #ffffff;
 }
 
+@media (min-width: 770px) {
+  main img {
+    width: 100%;
+  }
+  main .main--upper--content--wrapper {
+    width: 690px;
+    height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  main .main--upper--content--wrapper .main--upper--image {
+    width: 398px;
+  }
+  main .main--upper--content--wrapper .main--upper--content {
+    padding: 0;
+    width: 223px;
+    height: 299px;
+    margin: 36px 68px 76px 0;
+  }
+  main .main--upper--content--wrapper .main--upper--content .main--h2 {
+    font-size: 50px;
+    line-height: 45px;
+    text-transform: uppercase;
+    color: #151515;
+    margin-bottom: 21px;
+  }
+  main .main--bottom--content--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 11px;
+    width: 689px;
+    height: 720px;
+  }
+  main .main--bottom--content--wrapper .main--middle--image {
+    margin-top: 0;
+    width: 398px;
+    height: 720px;
+  }
+  main .main--bottom--content--wrapper .main--bottom--right--content--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 11px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  main .main--bottom--content--wrapper .main--bottom--right--content--wrapper .main--bottom--content {
+    padding: 85px 28px;
+  }
+  main .main--bottom--content--wrapper .main--bottom--right--content--wrapper .main--bottom--content .main--h2 {
+    margin-bottom: 24px;
+  }
+  main .main--bottom--content--wrapper .main--bottom--right--content--wrapper .main--bottom--content .main--h2,
+  main .main--bottom--content--wrapper .main--bottom--right--content--wrapper .main--bottom--content .main--p {
+    color: #ffffff;
+  }
+  main .main--bottom--content--wrapper .main--bottom--right--content--wrapper .main--bottom--image {
+    margin: 0;
+  }
+}
+
 header {
   position: relative;
 }
