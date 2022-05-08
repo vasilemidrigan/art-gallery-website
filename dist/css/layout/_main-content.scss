@@ -36,4 +36,8 @@ main {
       color: $white;
     }
   }
+  // Media Queries for Tablets (770px and above)
+  @media (min-width: $breakpoint-tablet) {
+    
+  }
 }

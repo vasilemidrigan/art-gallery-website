@@ -29,6 +29,13 @@ body {
   min-width: 300px;
 }
 
+@media (min-width: 770px) {
+  body {
+    max-width: 768px;
+    min-width: 770px;
+  }
+}
+
 a {
   text-decoration: none;
 }
@@ -163,6 +170,29 @@ header .header--content {
 header .header--content .header--content--h1,
 header .header--content .header--content--p {
   margin-bottom: 32px;
+}
+
+@media screen and (min-width: 770px) {
+  header .header--image {
+    width: 437px;
+    height: 700px;
+  }
+  header .header--content {
+    width: 339px;
+    height: 410px;
+    position: absolute;
+    top: 145px;
+    left: 389px;
+    margin: 0px 16px;
+  }
+  header .header--content .header--content--h1 {
+    font-size: 70px;
+    line-height: 65px;
+  }
+  header .header--content .header--content--h1,
+  header .header--content .header--content--p {
+    margin-bottom: 48px;
+  }
 }
 
 footer {
