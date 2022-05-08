@@ -452,6 +452,9 @@ header .header--map {
     width: 768px;
     height: 600px;
   }
+  header .header--map {
+    height: 600px;
+  }
 }
 
 .location--main {
@@ -484,6 +487,12 @@ header .header--map {
 .location--main .location--main--address,
 .location--main .location--main--p {
   color: #ffffff;
+}
+
+@media (min-width: 770px) {
+  .location--main {
+    margin-top: 0;
+  }
 }
 
 .location--footer {

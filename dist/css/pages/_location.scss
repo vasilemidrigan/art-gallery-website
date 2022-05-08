@@ -18,7 +18,10 @@ header {
   // Media Queries for Tablet
   @media (min-width: $breakpoint-tablet) {
     width: 768px;
-    height: 600px;                        
+    height: 600px;
+    .header--map {
+      height: 600px;
+    }
   }
 }
 
@@ -49,6 +52,10 @@ header {
   .location--main--address,
   .location--main--p {
     color: $white;
+  }
+  // Media Queries for tablet screens wider than 770px
+  @media (min-width: $breakpoint-tablet) {
+    margin-top: 0;
   }
 }
 
