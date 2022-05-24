@@ -1,9 +1,0 @@
-// –––––––––––––––––––––––––––
-// ––––––––| MIXINS |–––––––––
-// –––––––––––––––––––––––––––
-
-@mixin display-flex($justify-content) {
-  display: flex;
-  justify-content: $justify-content;
-  align-items: center;
-}
