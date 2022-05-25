@@ -1,29 +1,28 @@
+// Globals
+
 body {
   border: 1px solid red;
   width: 100vw;
   height: 100px;
 }
 
+// spacing
 .p-lr-mob {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-
 .p-tb-mob {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
 }
 
+// flexbox
 .flex {
   display: flex;
 }
-
 .flex-jc-c {
   justify-content: center;
 }
-
 .flex-ai-c {
   align-items: center;
 }
-
-/*# sourceMappingURL=main.css.map */
