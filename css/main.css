@@ -1,7 +1,58 @@
-body {
-  border: 1px solid red;
-  width: 100vw;
-  height: 100px;
+.btn {
+  height: 4.5rem;
+  width: 16.25rem;
+  display: flex;
+}
+.btn a {
+  text-transform: uppercase;
+  display: flex;
+}
+.btn a .btn__txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #151515;
+  color: #fff;
+  width: 12.75rem;
+  height: 100%;
+  font-family: "Big Shoulders Display", "sans-serif";
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 3.63636px;
+}
+.btn a .btn__arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: unset;
+  width: 3.5rem;
+  height: 100%;
+  background-color: #d5966c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Outfit", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+a {
+  color: #151515;
+  text-decoration: none;
 }
 
 .p-lr-mob {
@@ -24,6 +75,28 @@ body {
 
 .flex-ai-c {
   align-items: center;
+}
+
+.header__hero {
+  margin-bottom: 2rem;
+}
+.header__hero img {
+  width: 100%;
+}
+.header__content div:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.header__content__header h1 {
+  font-weight: 900;
+  font-size: 3.75rem;
+  line-height: 55px;
+  text-transform: uppercase;
+}
+.header__content__txt p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: #444444;
 }
 
 /*# sourceMappingURL=main.css.map */

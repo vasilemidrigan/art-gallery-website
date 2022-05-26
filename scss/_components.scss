@@ -2,4 +2,28 @@
 
 // button
 .btn {
+  height: 4.5rem;
+  width: 16.25rem;
+  display: flex;
+  & a {
+    text-transform: uppercase;
+    display: flex;
+    .btn__txt {
+      @include display-flex(center, center, row);
+      background-color: $almost-black;
+      color: $white;
+      width: 12.75rem;
+      height: 100%;
+      font-family: "Big Shoulders Display", "sans-serif";
+      font-weight: 800;
+      font-size: 20px;
+      letter-spacing: 3.63636px;
+    }
+    .btn__arrow {
+      @include display-flex(center, center, unset);
+      width: 3.5rem;
+      height: 100%;
+      background-color: $gold;
+    }
+  }
 }

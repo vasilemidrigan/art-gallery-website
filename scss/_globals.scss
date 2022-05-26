@@ -1,9 +1,27 @@
 // Globals
 
-body {
-  border: 1px solid red;
-  width: 100vw;
-  height: 100px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Outfit", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+a {
+  color: $almost-black;
+  text-decoration: none;
 }
 
 // spacing
