@@ -7,3 +7,18 @@
   align-items: $align-items;
   flex-direction: $flex-direction;
 }
+
+// breakpoints map
+// 640px, 1024px, 1400px
+$breakpoints-up: (
+  "medium": "40rem",
+  "large": "64rem",
+  "xlarge": "87.5rem",
+);
+
+// media query mixin
+@mixin breakpoint-up($size) {
+  @media (min-width: map-get($breakpoints-up, $size)) {
+    @content;
+  }
+}
