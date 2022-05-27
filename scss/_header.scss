@@ -2,12 +2,14 @@
 
 .header {
   &__hero {
-    width: 100%;
-    min-height: 23.4375rem;
-    background-image: url("../img/mobile/image-hero@2x.jpg");
-    background-repeat: no-repeat;
-    background-size: 100%;
     margin-bottom: 2rem;
+    & picture img {
+      width: 100%;
+      @include breakpoint-up(medium) {
+        // width: 57%;
+        // min-height: 700px;
+      }
+    }
   }
   &__content {
     & div:not(:last-child) {

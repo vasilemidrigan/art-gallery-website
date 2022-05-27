@@ -33,11 +33,21 @@
   <body>
     <header class="header">
       <div class="header__hero">
-        <!-- <img
-          class="header__hero__img"
-          src="/img/mobile/image-hero@2x.jpg"
-          alt=""
-        /> -->
+        <picture>
+          <source
+            media="(min-width: 640px)"
+            srcset="/img/tablet/image-hero@2x.jpg"
+          />
+          <source
+            media="(min-width: 1024px)"
+            srcset="/img/desktop/image-hero@2x.jpg"
+          />
+          <img
+            class="header__hero__img"
+            src="/img/mobile/image-hero@2x.jpg"
+            alt="An old woman portrait in a gallery"
+          />
+        </picture>
       </div>
       <div class="header__content p-lr-mob">
         <div class="header__content__header">
