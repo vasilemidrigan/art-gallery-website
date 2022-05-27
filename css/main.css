@@ -77,11 +77,19 @@ a {
   align-items: center;
 }
 
+.header {
+  position: relative;
+}
 .header__hero {
   margin-bottom: 2rem;
 }
-.header__hero picture img {
+.header__hero__img {
   width: 100%;
+}
+@media (min-width: 40rem) {
+  .header__hero__img {
+    max-width: 57%;
+  }
 }
 .header__content div:not(:last-child) {
   margin-bottom: 2rem;
@@ -97,6 +105,14 @@ a {
   font-size: 18px;
   line-height: 28px;
   color: #444444;
+}
+@media (min-width: 40rem) {
+  .header__content {
+    position: absolute;
+    top: 25%;
+    left: 48%;
+    max-width: 27.5rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

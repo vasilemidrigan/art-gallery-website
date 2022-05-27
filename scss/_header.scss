@@ -1,13 +1,13 @@
 // Header
 
 .header {
+  position: relative;
   &__hero {
     margin-bottom: 2rem;
-    & picture img {
+    &__img {
       width: 100%;
       @include breakpoint-up(medium) {
-        // width: 57%;
-        // min-height: 700px;
+        max-width: 57%;
       }
     }
   }
@@ -30,6 +30,12 @@
         line-height: 28px;
         color: #444444;
       }
+    }
+    @include breakpoint-up(medium) {
+      position: absolute;
+      top: 25%;
+      left: 48%;
+      max-width: 27.5rem;
     }
   }
 }
