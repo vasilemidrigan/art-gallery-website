@@ -26,4 +26,9 @@
       background-color: $gold;
     }
   }
+  @include breakpoint-up(large) {
+    position: absolute;
+    top: 670%;
+    left: 616%;
+  }
 }

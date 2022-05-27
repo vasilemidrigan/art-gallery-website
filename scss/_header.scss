@@ -2,6 +2,17 @@
 
 .header {
   position: relative;
+  @include breakpoint-up(large) {
+    min-height: 49.9375rem;
+  }
+  &__black-bg {
+    @include breakpoint-up(large) {
+      background-color: $almost-black;
+      width: 31.27%;
+      height: 100%;
+      position: absolute;
+    }
+  }
   &__hero {
     margin-bottom: 2rem;
     &__img {
@@ -9,6 +20,10 @@
       @include breakpoint-up(medium) {
         max-width: 57%;
       }
+    }
+    @include breakpoint-up(large) {
+      position: absolute;
+      left: 31.23%;
     }
   }
   &__content {
@@ -21,14 +36,38 @@
         font-size: $lg-head;
         line-height: 55px;
         text-transform: uppercase;
+        @include breakpoint-up(large) {
+          position: absolute;
+          top: -33%;
+          left: -1661%;
+          font-size: 96px;
+          line-height: 88px;
+        }
       }
     }
     &__txt {
+      max-width: 21.875rem;
+      position: absolute;
+      left: 10%;
+      top: 10%;
+      @include breakpoint-up(large) {
+        width: 350px;
+        left: 616%;
+        top: 51%;
+        mix-blend-mode: difference;
+        color: white;
+      }
       p {
         font-weight: 300;
         font-size: 18px;
         line-height: 28px;
         color: #444444;
+        max-width: 27.75rem;
+        @include breakpoint-up(large) {
+          font-size: $lg-prgrf-desk;
+          line-height: 32px;
+          margin-bottom: 4rem;
+        }
       }
     }
     @include breakpoint-up(medium) {
